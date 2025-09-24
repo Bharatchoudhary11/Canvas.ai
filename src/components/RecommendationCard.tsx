@@ -1,7 +1,7 @@
 import { memo, useCallback } from 'react';
 import { Image, Linking, Pressable, StyleSheet, Text, View } from 'react-native';
 import { Recommendation } from '../services/ai';
-import { Product } from '../data/productCatalog';
+import { Product } from '../catalog';
 import { FeatureChip } from './FeatureChip';
 
 type RecommendationCardProps = {

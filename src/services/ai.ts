@@ -1,5 +1,5 @@
 import Constants from 'expo-constants';
-import { PRODUCT_CATALOG, Product } from '../data/productCatalog';
+import { PRODUCT_CATALOG, Product } from '../catalog';
 
 export type Recommendation = {
 	productId: string;
